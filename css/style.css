@@ -1,0 +1,17 @@
+:root{
+    --cor-header: #006BA8;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: var(--cor-header);
+    display: flex;
+}
