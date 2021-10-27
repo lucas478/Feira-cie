@@ -1,5 +1,6 @@
 :root{
     --cor-header: #006BA8;
+    --cor-qm-foi-nikola:#C4C4C4;
 }
 
 body{
@@ -14,4 +15,43 @@ body{
 header{
     background: var(--cor-header);
     display: flex;
+    height: 140px;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sub-title{
+  margin-left: 480px;
+}
+
+.nikola{
+  max-width: 416px;
+  max-height: 416px;
+}
+
+.img_svg{
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.qm_foi_nikola{
+  width: 300px;
+  background-color: var(--cor-qm-foi-nikola);
+  border-radius: 11px;
+  margin-left: 900px;
+  margin-top: -350px;
+  padding: 5px;
+}
+
+.qm_foi_nikola ul li{
+  list-style: none;
+  padding: 10px;
+}
+
+.objetivo{
+  margin-top: 207px;
+  text-align: center
 }
