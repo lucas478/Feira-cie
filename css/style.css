@@ -24,6 +24,10 @@ header{
     text-align: center;
 }
 
+header > h2{
+  float: left;
+}
+
 header{
     border:4px rgb(76, 78, 211);
     box-shadow: 0px 0px 35px aqua, 0px 0px 45px rgb(0, 0, 255);
