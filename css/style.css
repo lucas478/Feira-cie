@@ -1,6 +1,7 @@
 :root{
     --cor-header: #006BA8;
     --cor-qm-foi-nikola:#C4C4C4;
+    --cor-footer: rgb(0, 140, 255);
 }
 
 body{
@@ -8,6 +9,7 @@ body{
 }
 
 *{
+   list-style: none;
     margin: 0px;
     padding: 0px;
 }
@@ -27,50 +29,56 @@ header{
     box-shadow: 0px 0px 35px aqua, 0px 0px 45px rgb(0, 0, 255);
 }
 
-.nikola{
-  max-width: 416px;
-  max-height: 416px;
-}
-
-.sub-title{
-  margin-left: 480px;
-}
-
-.img_svg{
-  margin-left: 100px;
+main{
   margin-top: 50px;
 }
 
-.qm_foi_nikola{
+main .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+main .sub-title{
+  margin-left: 250px;
+}
+
+main .qm_foi_nikola{
+  padding: 15px;
   width: 300px;
-  background-color: var(--cor-qm-foi-nikola);
   border-radius: 11px;
-  float: right;
-  margin-right: 100px;
-  margin-top: -415px;
-  padding: 5px;
+  background-color: var(--cor-qm-foi-nikola);
 }
 
-.qm_foi_nikola ul li{
-  list-style: none;
-  padding: 10px;
+main .objetivo{
+  text-align: center;
+  margin-top: 100px;
 }
 
-.objetivo{
-  margin-top: 207px;
-  text-align: center
+footer{
+  background-color: var(--cor-footer);
 }
 
-/*Responsividade*/
+.videos{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
-@media screen and (max-width: 999px){
-  .qm_foi_nikola{
-    font-size: 15px;
-    margin-left: 40px;
+.refer{
+  margin-top: 80px;
+  text-align: center;
+}
+
+/*Responsividade============================================================================================================================================================================*/
+@media(max-width: 1182px){
+  .videos{
+    display: flex;
+    flex-direction: column;
   }
 
-  #tam{
-    width: 300px;
-    height: 400px;
+  #teste2{
+    margin-top: 12px;
   }
 }
