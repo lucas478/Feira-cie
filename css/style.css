@@ -56,8 +56,12 @@ main .objetivo{
   margin-top: 100px;
 }
 
+#bobina{
+  width: 100%;
+}
+
 footer{
-  background-color: var(--cor-footer);
+  background-color: var(--cor-header);
 }
 
 .videos{
