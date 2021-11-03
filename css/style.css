@@ -65,9 +65,18 @@ footer{
 }
 
 .videos{
-  padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 60%;
+  position: relative;
+}
+
+div .videos > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 .refer{
@@ -80,9 +89,6 @@ footer{
   .videos{
     display: flex;
     flex-direction: column;
-  }
-
-  #teste2{
-    margin-top: 12px;
+    align-items: center;
   }
 }
