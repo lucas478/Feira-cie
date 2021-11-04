@@ -56,8 +56,8 @@ main .objetivo{
   margin-top: 100px;
 }
 
-#bobina{
-  width: 100%;
+main #bobina{
+  margin-top: 25px;
 }
 
 footer{
