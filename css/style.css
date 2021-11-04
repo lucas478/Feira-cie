@@ -70,16 +70,7 @@ footer{
 .videos{
   display: flex;
   justify-content: space-around;
-  padding-bottom: 60%;
-  position: relative;
-}
-
-div .videos > iframe{
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
+  padding: 15px 0px;
 }
 
 .refer{
